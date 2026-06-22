@@ -1,0 +1,18 @@
+# R Statistical Distribution Analysis Project
+# =============================================
+# This file lists all R package dependencies needed to run the project.
+# Install with: Rscript -e "install.packages(c('ggplot2', 'dplyr', 'moments'))"
+# Or install individually in R: install.packages("package_name")
+
+# Core data manipulation and visualization
+ggplot2>=3.4.0
+dplyr>=1.1.0
+
+# Statistical analysis (skewness, kurtosis)
+moments>=0.14
+
+# R version requirement
+R>=3.6.0
+
+# Optional: For better reproducibility, consider using renv
+# renv>=0.16.0
